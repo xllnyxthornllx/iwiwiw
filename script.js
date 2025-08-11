@@ -32,7 +32,7 @@ document.addEventListener('keydown', function (e) {
 
 
 function heart() {
-  const icons = ["🌻"];
+  const icons = ["🌻","💗"];
   const randomIcon = icons[Math.floor(Math.random() * icons.length)];
 
   const heart = document.createElement("div");
